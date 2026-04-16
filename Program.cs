@@ -95,3 +95,54 @@
 // employee.Salary = newsalary;
 // System.Console.WriteLine();
 // System.Console.WriteLine(employee.GetInfo());
+
+
+// Task2
+// var s= new Calculator(10,5);
+// System.Console.WriteLine(s.division());
+// System.Console.WriteLine(s.subtruct());
+// System.Console.WriteLine(s.sum());
+// System.Console.WriteLine(s.multiplication());
+
+
+
+
+
+// Task3
+// var student = new Student(1,"John",20,3.5);
+// student.ShowInfo();
+// student.IsExcellentStudent();
+
+
+// hometask1
+// var book = new Book("world", "Max", 2010);
+// book.GetInfo();
+// book.IsPublishedRecently();
+
+
+// hometask2
+// System.Console.Write("Введите радиус окружности: ");
+// double r = Convert.ToDouble(Console.ReadLine());
+
+// var circle = new Circle(r);
+// Console.WriteLine($"Радиус: {circle.GetRadius()}");
+// Console.WriteLine($"Площадь: {circle.GetArea()}");
+// Console.WriteLine($"Диаметр: {circle.GetDiameter()}");
+// Console.WriteLine($"Длина окружности:: {circle.GetCircumference()}");
+
+
+// hometask3
+
+// Console.Write("Введите день: ");
+// int d = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("Введите месяц: ");
+// int m = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("Введите год: ");
+// int y = Convert.ToInt32(Console.ReadLine());
+
+// Date date = new Date(d, m, y);
+
+// Console.WriteLine("Дата: " + date.ToString());
+
